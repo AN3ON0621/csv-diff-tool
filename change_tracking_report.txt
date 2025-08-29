@@ -1,0 +1,639 @@
+================================================================================
+PHONE LIST CHANGE TRACKING REPORT
+Generated: 2025-08-29 10:29:37
+================================================================================
+
+SUMMARY STATISTICS:
+----------------------------------------
+Total records in old list: 2022
+Total records in new list: 2047
+Common users (analyzed): 1988
+New joiners (ignored): 56
+Resignees (ignored): 30
+Users with changes: 67
+Total field changes: 70
+
+DETAILED CHANGES BY USER:
+================================================================================
+
+1. TANG Ho Chun, Stephen (鄧 昊 進)
+----------------------------------------
+   Field: Location
+   Type: Minor Change (Possible Typo)
+   Old: '7WS085B'
+   New: '77WS085B'
+   Similarity: 0.93
+
+
+2. HU Xinyu, Allison (胡 昕 宇)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '00'
+   Similarity: 0.0
+
+
+3. LEE Tat Chi, Howard, JP (李 達 志)
+----------------------------------------
+   Field: Title
+   Type: Moderate Change
+   Old: 'DCE(M)/CEO(EFIO)'
+   New: 'CEO(EFIO)'
+   Similarity: 0.72
+
+
+4. SIU Man Shuen, Nicole (蕭 敏 璇)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+5. YIP Sze Nga, Kelly (葉 思 雅)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+6. LEUNG Tsz Kiu, Hanon (梁 芷 喬)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '28782739'
+   Similarity: 0.0
+
+
+7. CHEUNG Yuen Iu, Eukie (張 婉 姚)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '28783716'
+   Similarity: 0.0
+
+
+8. CHONG Ho Hin, Jacky (nan)
+----------------------------------------
+   Field: Location
+   Type: Removed
+   Old: 'K3209N'
+   New: ''
+   Similarity: 0.0
+
+
+9. HO Chin Wing, Trinity (何 芊 穎)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '93016557'
+   Similarity: 0.0
+
+
+10. CHAN Yin Chi, Michael (陳 彥 志)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+11. WONG Wing lok, Jack (黃 永 樂)
+----------------------------------------
+   Field: Phone
+   Type: Moderate Change
+   Old: '3641'
+   New: '28783641'
+   Similarity: 0.67
+
+
+12. WONG Pak Hin, Hinson (黃 柏 騫)
+----------------------------------------
+   Field: Fax
+   Type: Removed
+   Old: '28781927'
+   New: ''
+   Similarity: 0.0
+
+
+13. SIN Ka Long, Jacqueline (冼 家 朗)
+----------------------------------------
+   Field: Location
+   Type: Added
+   Old: ''
+   New: '25970304'
+   Similarity: 0.0
+
+
+14. LEE Qing, Isaac (李 晴)
+----------------------------------------
+   Field: Phone
+   Type: Moderate Change
+   Old: '28783621'
+   New: '3621'
+   Similarity: 0.67
+
+
+15. WONG Yuk Ting, Yuki (黃 鈺 婷)
+----------------------------------------
+   Field: Title
+   Type: Moderate Change
+   Old: 'Co-ord(IT)(DP)Temp'
+   New: 'O(IT)(BPM)1'
+   Similarity: 0.55
+
+   Field: Phone
+   Type: Major Change
+   Old: '25970523'
+   New: '28781075'
+   Similarity: 0.25
+
+   Field: Location
+   Type: Major Change
+   Old: 'K3233A'
+   New: '81WS044'
+   Similarity: 0.0
+
+
+16. WONG Ching Man, Charlie (黃 靜 雯)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+17. KWAN Cheuk Man, Oscar (關 卓 文)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '25970588'
+   New: '2597 0588'
+   Similarity: 0.94
+
+
+18. NG Lai Lang, Sally (吳 麗 冷)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+19. WONG Hoi Tung, Venus (黃 海 桐)
+----------------------------------------
+   Field: Fax
+   Type: Minor Change (Possible Typo)
+   Old: '28782019'
+   New: '2878 2019'
+   Similarity: 0.94
+
+
+20. TSE Ka Chun, Henry  (謝 嘉 俊)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '28781615'
+   New: '2878 1615'
+   Similarity: 0.94
+
+
+21. CHEUNG Wai yin, Phoebe (張 蕙 然)
+----------------------------------------
+   Field: Phone
+   Type: Moderate Change
+   Old: '28783616'
+   New: '3616'
+   Similarity: 0.67
+
+
+22. KWOK Lok Yan, Winsome (郭 綠 茵)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+23. CHEN Jiayi, Lola (陳 佳 意)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '28782720'
+   New: '2878 2720'
+   Similarity: 0.94
+
+
+24. CHAN Wai Chi, Connie (陳 偉 芝)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+25. LEUNG Hoi Shun, Darren (梁 凱 舜)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+26. CHAN Heung Yi, Ella (陳 香 兒)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28788262'
+   Similarity: 0.0
+
+
+27. SIN Ho Kai, Hamlet (單 皓 楷)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '28782733'
+   New: '2878 2733'
+   Similarity: 0.94
+
+
+28. WONG Man Sze, Joanna (黃 敏 詩)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '25360094'
+   Similarity: 0.0
+
+
+29. YIP Wing Kit, Anthony (葉 榮 傑)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Asst O(CMU) 1'
+   New: 'Asst O(CMU)1'
+   Similarity: 0.96
+
+
+30. CHAN Tik Man, Doris (陳 迪 雯)
+----------------------------------------
+   Field: Fax
+   Type: Minor Change (Possible Typo)
+   Old: '28787712'
+   New: '2878 7712'
+   Similarity: 0.94
+
+
+31. CHAN Ka Yan, Karen (陳 嘉 欣)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+32. YIU Lai Ling, Elanne (姚 麗 玲)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Sec/SM(BS)1C&SM(BS)(TR)5&6Temp'
+   New: 'Sec/CM(BS)1C&SM(BS)(TR)5&(BS)(SuT)5Temp'
+   Similarity: 0.81
+
+
+33. TAM Cheuk Hin, Jason (譚 卓 軒)
+----------------------------------------
+   Field: Location
+   Type: Minor Change (Possible Typo)
+   Old: '86WS-043'
+   New: '86WS043'
+   Similarity: 0.93
+
+
+34. CHAN Foo Kiu (陳 富 橋)
+----------------------------------------
+   Field: Title
+   Type: Moderate Change
+   Old: 'Contractor(IT)(DP)76'
+   New: 'Contractor(IT)(AS1)50'
+   Similarity: 0.78
+
+
+35. YEUNG Pui Ki, Peggy (楊 珮 琪)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '28782723'
+   Similarity: 0.0
+
+
+36. NG Man Seong, Jeremy  (吳 文 尚)
+----------------------------------------
+   Field: Phone
+   Type: Moderate Change
+   Old: '28783681'
+   New: '3681'
+   Similarity: 0.67
+
+
+37. JI Ke (吉 珂)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '+65 67970909'
+   New: ''+65 6797 0909'
+   Similarity: 0.92
+
+
+38. CHAN Ling Hang, Clement (陳 令 行)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '25360092'
+   Similarity: 0.0
+
+
+39. HO Kim Wa (何 劍 華)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '28781092'
+   Similarity: 0.0
+
+
+40. POON Pak Ying, Jennifer (潘 柏 螢)
+----------------------------------------
+   Field: Phone
+   Type: Moderate Change
+   Old: '28783612'
+   New: '3612'
+   Similarity: 0.67
+
+
+41. CHAU Ka Wun, Kathy (周 嘉 媛)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+42. TSE Tze To, Charles (謝 子 滔)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Director, Product Development / CMUOC'
+   New: 'Director, Product Development'
+   Similarity: 0.88
+
+
+43. LI Kwok Kiu, Andy (李 國 翹)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+44. TSE Lai Sheung, Wendy (謝 麗 湘)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+45. WONG Pui Hong, Alfred (黃 沛 匡)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Contractor(IT)(DP)70'
+   New: 'Contractor(IT)(PSM)12'
+   Similarity: 0.83
+
+
+46. LO Kit Ying, Kitty (盧 潔 瑩)
+----------------------------------------
+   Field: Fax
+   Type: Moderate Change
+   Old: '28781887'
+   New: '28781899'
+   Similarity: 0.75
+
+
+47. ALI Syed Ayan, Ayan (nan)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '3719'
+   Similarity: 0.0
+
+
+48. TSE Ka Lam, Angel (謝 嘉 琳)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+49. CHAN Sin Yee, Ciny  (陳 倩 怡)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Associate Director (CMU)(HR) / CMUOC'
+   New: 'Associate Director (CMU)(HR)'
+   Similarity: 0.88
+
+
+50. AU Yan Ting, Benny (歐 恩 霆)
+----------------------------------------
+   Field: Title
+   Type: Moderate Change
+   Old: 'Contractor(IT)(DP)38'
+   New: 'Contractor(IT)(AS1)52'
+   Similarity: 0.78
+
+
+51. CHEUNG Kar Wai, Karry (張 嘉 惠)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Sec/H(BS)(CR)& Consultant(BS)Temp'
+   New: 'Sec/H(BS)(CR)&Consultant(BS)Temp'
+   Similarity: 0.98
+
+
+52. WONG Kwok Chun, Gordon (汪 國 俊)
+----------------------------------------
+   Field: Location
+   Type: Moderate Change
+   Old: '83WS108'
+   New: '80WS081'
+   Similarity: 0.71
+
+
+53. SHUM Tsz Hin, Hinz  (沈 梓 軒)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Consultant(DO)5A3'
+   New: 'Consultant(RD)1'
+   Similarity: 0.81
+
+
+54. MOK Wing Sum, Jess (莫 穎 琛)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '28788104'
+   New: '2878 8104'
+   Similarity: 0.94
+
+
+55. CHENG Si Pooi, Rachel (鄭 鍶 佩)
+----------------------------------------
+   Field: Title
+   Type: Major Change
+   Old: 'Associate(IT) / CMUOC'
+   New: 'Associate, IT Infrastructure & Systems'
+   Similarity: 0.48
+
+
+56. LIN Xiaoya, Joyce (林 小 雅)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781081'
+   Similarity: 0.0
+
+
+57. LAU Kin Shing, Kelvin (劉 健 成)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '2597 0647'
+   New: '25970647'
+   Similarity: 0.94
+
+
+58. YIN Yuxi, Philip (殷 宇 曦)
+----------------------------------------
+   Field: Phone
+   Type: Removed
+   Old: '28781761'
+   New: ''
+   Similarity: 0.0
+
+   Field: Location
+   Type: Removed
+   Old: '85WS088'
+   New: ''
+   Similarity: 0.0
+
+
+59. HO Tat Wai, Larry (何 達 威)
+----------------------------------------
+   Field: Title
+   Type: Minor Change (Possible Typo)
+   Old: 'Senior Associate, Product Development / CMUOC'
+   New: 'Senior Associate, Product Development'
+   Similarity: 0.9
+
+
+60. SHI Yu Hin, Daniel (史 宇 軒)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '28783717'
+   Similarity: 0.0
+
+
+61. CHONG Chun Kwok, Jule (莊 進 國)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+62. QUACH Michael (郭 業 恩)
+----------------------------------------
+   Field: Phone
+   Type: Minor Change (Possible Typo)
+   Old: '28785995'
+   New: '2878 5995'
+   Similarity: 0.94
+
+
+63. WONG Ka Yi, Angel (黃 嘉 怡)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+
+64. TSE Mei Lin, Atta (謝 美 蓮)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '25360090'
+   Similarity: 0.0
+
+
+65. NG Lai Yuet, Yonnie (伍 麗 月)
+----------------------------------------
+   Field: Fax
+   Type: Minor Change (Possible Typo)
+   Old: '25090651'
+   New: '2509 0651'
+   Similarity: 0.94
+
+
+66. TONG Wai Lam, William (唐 偉 霖)
+----------------------------------------
+   Field: Phone
+   Type: Added
+   Old: ''
+   New: '25970746'
+   Similarity: 0.0
+
+
+67. CHAN Kwan Po, Jason (陳 君 堡)
+----------------------------------------
+   Field: Fax
+   Type: Added
+   Old: ''
+   New: '28781899'
+   Similarity: 0.0
+
+

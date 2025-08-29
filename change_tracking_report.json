@@ -1,0 +1,906 @@
+{
+  "timestamp": "2025-08-29 10:29:37",
+  "statistics": {
+    "total_old_records": 2022,
+    "total_new_records": 2047,
+    "common_users": 1988,
+    "new_joiners": 56,
+    "resignees": 30,
+    "users_with_changes": 67,
+    "total_field_changes": 70
+  },
+  "changes": [
+    {
+      "user": "TANG Ho Chun, Stephen",
+      "chinese_name": "鄧 昊 進",
+      "changes": [
+        {
+          "field": "Location",
+          "old_value": "7WS085B",
+          "new_value": "77WS085B",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.93
+        }
+      ]
+    },
+    {
+      "user": "HU Xinyu, Allison",
+      "chinese_name": "胡 昕 宇",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "00",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "LEE Tat Chi, Howard, JP",
+      "chinese_name": "李 達 志",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "DCE(M)/CEO(EFIO)",
+          "new_value": "CEO(EFIO)",
+          "change_type": "Moderate Change",
+          "similarity": 0.72
+        }
+      ]
+    },
+    {
+      "user": "SIU Man Shuen, Nicole",
+      "chinese_name": "蕭 敏 璇",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "YIP Sze Nga, Kelly",
+      "chinese_name": "葉 思 雅",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "LEUNG Tsz Kiu, Hanon",
+      "chinese_name": "梁 芷 喬",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "28782739",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHEUNG Yuen Iu, Eukie",
+      "chinese_name": "張 婉 姚",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "28783716",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHONG Ho Hin, Jacky",
+      "chinese_name": NaN,
+      "changes": [
+        {
+          "field": "Location",
+          "old_value": "K3209N",
+          "new_value": "",
+          "change_type": "Removed",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "HO Chin Wing, Trinity",
+      "chinese_name": "何 芊 穎",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "93016557",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHAN Yin Chi, Michael",
+      "chinese_name": "陳 彥 志",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "WONG Wing lok, Jack",
+      "chinese_name": "黃 永 樂",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "3641",
+          "new_value": "28783641",
+          "change_type": "Moderate Change",
+          "similarity": 0.67
+        }
+      ]
+    },
+    {
+      "user": "WONG Pak Hin, Hinson",
+      "chinese_name": "黃 柏 騫",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "28781927",
+          "new_value": "",
+          "change_type": "Removed",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "SIN Ka Long, Jacqueline",
+      "chinese_name": "冼 家 朗",
+      "changes": [
+        {
+          "field": "Location",
+          "old_value": "",
+          "new_value": "25970304",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "LEE Qing, Isaac",
+      "chinese_name": "李 晴",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28783621",
+          "new_value": "3621",
+          "change_type": "Moderate Change",
+          "similarity": 0.67
+        }
+      ]
+    },
+    {
+      "user": "WONG Yuk Ting, Yuki",
+      "chinese_name": "黃 鈺 婷",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Co-ord(IT)(DP)Temp",
+          "new_value": "O(IT)(BPM)1",
+          "change_type": "Moderate Change",
+          "similarity": 0.55
+        },
+        {
+          "field": "Phone",
+          "old_value": "25970523",
+          "new_value": "28781075",
+          "change_type": "Major Change",
+          "similarity": 0.25
+        },
+        {
+          "field": "Location",
+          "old_value": "K3233A",
+          "new_value": "81WS044",
+          "change_type": "Major Change",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "WONG Ching Man, Charlie",
+      "chinese_name": "黃 靜 雯",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "KWAN Cheuk Man, Oscar",
+      "chinese_name": "關 卓 文",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "25970588",
+          "new_value": "2597 0588",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "NG Lai Lang, Sally",
+      "chinese_name": "吳 麗 冷",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "WONG Hoi Tung, Venus",
+      "chinese_name": "黃 海 桐",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "28782019",
+          "new_value": "2878 2019",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "TSE Ka Chun, Henry ",
+      "chinese_name": "謝 嘉 俊",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28781615",
+          "new_value": "2878 1615",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "CHEUNG Wai yin, Phoebe",
+      "chinese_name": "張 蕙 然",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28783616",
+          "new_value": "3616",
+          "change_type": "Moderate Change",
+          "similarity": 0.67
+        }
+      ]
+    },
+    {
+      "user": "KWOK Lok Yan, Winsome",
+      "chinese_name": "郭 綠 茵",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHEN Jiayi, Lola",
+      "chinese_name": "陳 佳 意",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28782720",
+          "new_value": "2878 2720",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "CHAN Wai Chi, Connie",
+      "chinese_name": "陳 偉 芝",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "LEUNG Hoi Shun, Darren",
+      "chinese_name": "梁 凱 舜",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHAN Heung Yi, Ella",
+      "chinese_name": "陳 香 兒",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28788262",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "SIN Ho Kai, Hamlet",
+      "chinese_name": "單 皓 楷",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28782733",
+          "new_value": "2878 2733",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "WONG Man Sze, Joanna",
+      "chinese_name": "黃 敏 詩",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "25360094",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "YIP Wing Kit, Anthony",
+      "chinese_name": "葉 榮 傑",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Asst O(CMU) 1",
+          "new_value": "Asst O(CMU)1",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.96
+        }
+      ]
+    },
+    {
+      "user": "CHAN Tik Man, Doris",
+      "chinese_name": "陳 迪 雯",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "28787712",
+          "new_value": "2878 7712",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "CHAN Ka Yan, Karen",
+      "chinese_name": "陳 嘉 欣",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "YIU Lai Ling, Elanne",
+      "chinese_name": "姚 麗 玲",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Sec/SM(BS)1C&SM(BS)(TR)5&6Temp",
+          "new_value": "Sec/CM(BS)1C&SM(BS)(TR)5&(BS)(SuT)5Temp",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.81
+        }
+      ]
+    },
+    {
+      "user": "TAM Cheuk Hin, Jason",
+      "chinese_name": "譚 卓 軒",
+      "changes": [
+        {
+          "field": "Location",
+          "old_value": "86WS-043",
+          "new_value": "86WS043",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.93
+        }
+      ]
+    },
+    {
+      "user": "CHAN Foo Kiu",
+      "chinese_name": "陳 富 橋",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Contractor(IT)(DP)76",
+          "new_value": "Contractor(IT)(AS1)50",
+          "change_type": "Moderate Change",
+          "similarity": 0.78
+        }
+      ]
+    },
+    {
+      "user": "YEUNG Pui Ki, Peggy",
+      "chinese_name": "楊 珮 琪",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "28782723",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "NG Man Seong, Jeremy ",
+      "chinese_name": "吳 文 尚",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28783681",
+          "new_value": "3681",
+          "change_type": "Moderate Change",
+          "similarity": 0.67
+        }
+      ]
+    },
+    {
+      "user": "JI Ke",
+      "chinese_name": "吉 珂",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "+65 67970909",
+          "new_value": "'+65 6797 0909",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.92
+        }
+      ]
+    },
+    {
+      "user": "CHAN Ling Hang, Clement",
+      "chinese_name": "陳 令 行",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "25360092",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "HO Kim Wa",
+      "chinese_name": "何 劍 華",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "28781092",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "POON Pak Ying, Jennifer",
+      "chinese_name": "潘 柏 螢",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28783612",
+          "new_value": "3612",
+          "change_type": "Moderate Change",
+          "similarity": 0.67
+        }
+      ]
+    },
+    {
+      "user": "CHAU Ka Wun, Kathy",
+      "chinese_name": "周 嘉 媛",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "TSE Tze To, Charles",
+      "chinese_name": "謝 子 滔",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Director, Product Development / CMUOC",
+          "new_value": "Director, Product Development",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.88
+        }
+      ]
+    },
+    {
+      "user": "LI Kwok Kiu, Andy",
+      "chinese_name": "李 國 翹",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "TSE Lai Sheung, Wendy",
+      "chinese_name": "謝 麗 湘",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "WONG Pui Hong, Alfred",
+      "chinese_name": "黃 沛 匡",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Contractor(IT)(DP)70",
+          "new_value": "Contractor(IT)(PSM)12",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.83
+        }
+      ]
+    },
+    {
+      "user": "LO Kit Ying, Kitty",
+      "chinese_name": "盧 潔 瑩",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "28781887",
+          "new_value": "28781899",
+          "change_type": "Moderate Change",
+          "similarity": 0.75
+        }
+      ]
+    },
+    {
+      "user": "ALI Syed Ayan, Ayan",
+      "chinese_name": NaN,
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "3719",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "TSE Ka Lam, Angel",
+      "chinese_name": "謝 嘉 琳",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHAN Sin Yee, Ciny ",
+      "chinese_name": "陳 倩 怡",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Associate Director (CMU)(HR) / CMUOC",
+          "new_value": "Associate Director (CMU)(HR)",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.88
+        }
+      ]
+    },
+    {
+      "user": "AU Yan Ting, Benny",
+      "chinese_name": "歐 恩 霆",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Contractor(IT)(DP)38",
+          "new_value": "Contractor(IT)(AS1)52",
+          "change_type": "Moderate Change",
+          "similarity": 0.78
+        }
+      ]
+    },
+    {
+      "user": "CHEUNG Kar Wai, Karry",
+      "chinese_name": "張 嘉 惠",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Sec/H(BS)(CR)& Consultant(BS)Temp",
+          "new_value": "Sec/H(BS)(CR)&Consultant(BS)Temp",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.98
+        }
+      ]
+    },
+    {
+      "user": "WONG Kwok Chun, Gordon",
+      "chinese_name": "汪 國 俊",
+      "changes": [
+        {
+          "field": "Location",
+          "old_value": "83WS108",
+          "new_value": "80WS081",
+          "change_type": "Moderate Change",
+          "similarity": 0.71
+        }
+      ]
+    },
+    {
+      "user": "SHUM Tsz Hin, Hinz ",
+      "chinese_name": "沈 梓 軒",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Consultant(DO)5A3",
+          "new_value": "Consultant(RD)1",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.81
+        }
+      ]
+    },
+    {
+      "user": "MOK Wing Sum, Jess",
+      "chinese_name": "莫 穎 琛",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28788104",
+          "new_value": "2878 8104",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "CHENG Si Pooi, Rachel",
+      "chinese_name": "鄭 鍶 佩",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Associate(IT) / CMUOC",
+          "new_value": "Associate, IT Infrastructure & Systems",
+          "change_type": "Major Change",
+          "similarity": 0.48
+        }
+      ]
+    },
+    {
+      "user": "LIN Xiaoya, Joyce",
+      "chinese_name": "林 小 雅",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781081",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "LAU Kin Shing, Kelvin",
+      "chinese_name": "劉 健 成",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "2597 0647",
+          "new_value": "25970647",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "YIN Yuxi, Philip",
+      "chinese_name": "殷 宇 曦",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28781761",
+          "new_value": "",
+          "change_type": "Removed",
+          "similarity": 0.0
+        },
+        {
+          "field": "Location",
+          "old_value": "85WS088",
+          "new_value": "",
+          "change_type": "Removed",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "HO Tat Wai, Larry",
+      "chinese_name": "何 達 威",
+      "changes": [
+        {
+          "field": "Title",
+          "old_value": "Senior Associate, Product Development / CMUOC",
+          "new_value": "Senior Associate, Product Development",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.9
+        }
+      ]
+    },
+    {
+      "user": "SHI Yu Hin, Daniel",
+      "chinese_name": "史 宇 軒",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "28783717",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHONG Chun Kwok, Jule",
+      "chinese_name": "莊 進 國",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "QUACH Michael",
+      "chinese_name": "郭 業 恩",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "28785995",
+          "new_value": "2878 5995",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "WONG Ka Yi, Angel",
+      "chinese_name": "黃 嘉 怡",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "TSE Mei Lin, Atta",
+      "chinese_name": "謝 美 蓮",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "25360090",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "NG Lai Yuet, Yonnie",
+      "chinese_name": "伍 麗 月",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "25090651",
+          "new_value": "2509 0651",
+          "change_type": "Minor Change (Possible Typo)",
+          "similarity": 0.94
+        }
+      ]
+    },
+    {
+      "user": "TONG Wai Lam, William",
+      "chinese_name": "唐 偉 霖",
+      "changes": [
+        {
+          "field": "Phone",
+          "old_value": "",
+          "new_value": "25970746",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    },
+    {
+      "user": "CHAN Kwan Po, Jason",
+      "chinese_name": "陳 君 堡",
+      "changes": [
+        {
+          "field": "Fax",
+          "old_value": "",
+          "new_value": "28781899",
+          "change_type": "Added",
+          "similarity": 0.0
+        }
+      ]
+    }
+  ]
+}

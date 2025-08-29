@@ -1,0 +1,1788 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone List Change Tracking Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .statistics {
+            background-color: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .stat-item {
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 3px;
+        }
+        .changes {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .user-change {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #f9f9f9;
+        }
+        .change-detail {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-radius: 3px;
+        }
+        .change-type {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .type-added { background-color: #27ae60; color: white; }
+        .type-removed { background-color: #e74c3c; color: white; }
+        .type-minor { background-color: #f39c12; color: white; }
+        .type-moderate { background-color: #e67e22; color: white; }
+        .type-major { background-color: #c0392b; color: white; }
+        .old-value { color: #e74c3c; }
+        .new-value { color: #27ae60; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Phone List Change Tracking Report</h1>
+        <p>Generated: 2025-08-29 10:29:37</p>
+        <p>Comparing: lotus.csv (old) → corp.csv (new)</p>
+    </div>
+    
+    <div class="statistics">
+        <h2>Summary Statistics</h2>
+        <div class="stat-grid">
+            <div class="stat-item">
+                <strong>Old List Records:</strong> 2022
+            </div>
+            <div class="stat-item">
+                <strong>New List Records:</strong> 2047
+            </div>
+            <div class="stat-item">
+                <strong>Common Users:</strong> 1988
+            </div>
+            <div class="stat-item">
+                <strong>Users with Changes:</strong> 67
+            </div>
+            <div class="stat-item">
+                <strong>Total Changes:</strong> 70
+            </div>
+            <div class="stat-item">
+                <strong>New Joiners (Ignored):</strong> 56
+            </div>
+            <div class="stat-item">
+                <strong>Resignees (Ignored):</strong> 30
+            </div>
+        </div>
+    </div>
+    
+    <div class="changes">
+        <h2>Detected Changes in Existing Users</h2>
+        
+        <div class="user-change">
+            <h3>TANG Ho Chun, Stephen (鄧 昊 進)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'7WS085B'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'77WS085B'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>93%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>HU Xinyu, Allison (胡 昕 宇)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'00'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LEE Tat Chi, Howard, JP (李 達 志)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'DCE(M)/CEO(EFIO)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'CEO(EFIO)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>72%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>SIU Man Shuen, Nicole (蕭 敏 璇)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>YIP Sze Nga, Kelly (葉 思 雅)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LEUNG Tsz Kiu, Hanon (梁 芷 喬)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28782739'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHEUNG Yuen Iu, Eukie (張 婉 姚)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28783716'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHONG Ho Hin, Jacky (nan)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-removed">Removed</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'K3209N'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>HO Chin Wing, Trinity (何 芊 穎)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'93016557'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Yin Chi, Michael (陳 彥 志)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Wing lok, Jack (黃 永 樂)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'3641'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28783641'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>67%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Pak Hin, Hinson (黃 柏 騫)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-removed">Removed</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28781927'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>SIN Ka Long, Jacqueline (冼 家 朗)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25970304'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LEE Qing, Isaac (李 晴)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28783621'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'3621'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>67%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Yuk Ting, Yuki (黃 鈺 婷)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Co-ord(IT)(DP)Temp'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'O(IT)(BPM)1'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>55%</td>
+                    </tr>
+                </table>
+            </div>
+                
+            <div class="change-detail">
+                <span class="change-type type-major">Major Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'25970523'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781075'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>25%</td>
+                    </tr>
+                </table>
+            </div>
+                
+            <div class="change-detail">
+                <span class="change-type type-major">Major Change</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'K3233A'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'81WS044'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Ching Man, Charlie (黃 靜 雯)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>KWAN Cheuk Man, Oscar (關 卓 文)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'25970588'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2597 0588'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>NG Lai Lang, Sally (吳 麗 冷)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Hoi Tung, Venus (黃 海 桐)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28782019'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 2019'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TSE Ka Chun, Henry  (謝 嘉 俊)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28781615'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 1615'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHEUNG Wai yin, Phoebe (張 蕙 然)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28783616'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'3616'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>67%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>KWOK Lok Yan, Winsome (郭 綠 茵)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHEN Jiayi, Lola (陳 佳 意)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28782720'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 2720'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Wai Chi, Connie (陳 偉 芝)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LEUNG Hoi Shun, Darren (梁 凱 舜)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Heung Yi, Ella (陳 香 兒)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28788262'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>SIN Ho Kai, Hamlet (單 皓 楷)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28782733'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 2733'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Man Sze, Joanna (黃 敏 詩)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25360094'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>YIP Wing Kit, Anthony (葉 榮 傑)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Asst O(CMU) 1'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Asst O(CMU)1'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>96%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Tik Man, Doris (陳 迪 雯)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28787712'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 7712'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Ka Yan, Karen (陳 嘉 欣)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>YIU Lai Ling, Elanne (姚 麗 玲)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Sec/SM(BS)1C&SM(BS)(TR)5&6Temp'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Sec/CM(BS)1C&SM(BS)(TR)5&(BS)(SuT)5Temp'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>81%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TAM Cheuk Hin, Jason (譚 卓 軒)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'86WS-043'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'86WS043'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>93%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Foo Kiu (陳 富 橋)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Contractor(IT)(DP)76'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Contractor(IT)(AS1)50'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>78%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>YEUNG Pui Ki, Peggy (楊 珮 琪)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28782723'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>NG Man Seong, Jeremy  (吳 文 尚)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28783681'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'3681'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>67%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>JI Ke (吉 珂)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'+65 67970909'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">''+65 6797 0909'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>92%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Ling Hang, Clement (陳 令 行)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25360092'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>HO Kim Wa (何 劍 華)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781092'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>POON Pak Ying, Jennifer (潘 柏 螢)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28783612'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'3612'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>67%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAU Ka Wun, Kathy (周 嘉 媛)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TSE Tze To, Charles (謝 子 滔)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Director, Product Development / CMUOC'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Director, Product Development'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>88%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LI Kwok Kiu, Andy (李 國 翹)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TSE Lai Sheung, Wendy (謝 麗 湘)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Pui Hong, Alfred (黃 沛 匡)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Contractor(IT)(DP)70'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Contractor(IT)(PSM)12'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>83%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LO Kit Ying, Kitty (盧 潔 瑩)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28781887'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>75%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>ALI Syed Ayan, Ayan (nan)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'3719'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TSE Ka Lam, Angel (謝 嘉 琳)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Sin Yee, Ciny  (陳 倩 怡)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Associate Director (CMU)(HR) / CMUOC'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Associate Director (CMU)(HR)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>88%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>AU Yan Ting, Benny (歐 恩 霆)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Contractor(IT)(DP)38'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Contractor(IT)(AS1)52'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>78%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHEUNG Kar Wai, Karry (張 嘉 惠)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Sec/H(BS)(CR)& Consultant(BS)Temp'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Sec/H(BS)(CR)&Consultant(BS)Temp'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>98%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Kwok Chun, Gordon (汪 國 俊)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-moderate">Moderate Change</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'83WS108'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'80WS081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>71%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>SHUM Tsz Hin, Hinz  (沈 梓 軒)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Consultant(DO)5A3'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Consultant(RD)1'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>81%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>MOK Wing Sum, Jess (莫 穎 琛)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28788104'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 8104'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHENG Si Pooi, Rachel (鄭 鍶 佩)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-major">Major Change</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Associate(IT) / CMUOC'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Associate, IT Infrastructure & Systems'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>48%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LIN Xiaoya, Joyce (林 小 雅)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781081'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>LAU Kin Shing, Kelvin (劉 健 成)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'2597 0647'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25970647'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>YIN Yuxi, Philip (殷 宇 曦)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-removed">Removed</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28781761'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+            <div class="change-detail">
+                <span class="change-type type-removed">Removed</span>
+                <strong> Location</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'85WS088'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>HO Tat Wai, Larry (何 達 威)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Title</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'Senior Associate, Product Development / CMUOC'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'Senior Associate, Product Development'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>90%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>SHI Yu Hin, Daniel (史 宇 軒)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28783717'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHONG Chun Kwok, Jule (莊 進 國)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>QUACH Michael (郭 業 恩)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'28785995'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2878 5995'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>WONG Ka Yi, Angel (黃 嘉 怡)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TSE Mei Lin, Atta (謝 美 蓮)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25360090'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>NG Lai Yuet, Yonnie (伍 麗 月)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-minor">Minor Change (Possible Typo)</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'25090651'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'2509 0651'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>94%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>TONG Wai Lam, William (唐 偉 霖)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Phone</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'25970746'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+        <div class="user-change">
+            <h3>CHAN Kwan Po, Jason (陳 君 堡)</h3>
+            
+            <div class="change-detail">
+                <span class="change-type type-added">Added</span>
+                <strong> Fax</strong>
+                <table>
+                    <tr>
+                        <td width="100">Old Value:</td>
+                        <td class="old-value">'(empty)'</td>
+                    </tr>
+                    <tr>
+                        <td>New Value:</td>
+                        <td class="new-value">'28781899'</td>
+                    </tr>
+                    <tr>
+                        <td>Similarity:</td>
+                        <td>0%</td>
+                    </tr>
+                </table>
+            </div>
+                
+        </div>
+            
+    </div>
+</body>
+</html>
+        
