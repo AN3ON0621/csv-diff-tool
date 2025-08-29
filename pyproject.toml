@@ -1,0 +1,17 @@
+[project]
+name = "csv-diff-tool"
+version = "0.1.0"
+description = "Strict, cell-level CSV comparison CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "You" }]
+
+[project.scripts]
+csv-diff = "csv_diff.__main__:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+
